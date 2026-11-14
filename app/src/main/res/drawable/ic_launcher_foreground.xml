@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tiga kali tiga kotak teka-teki: kuning dan krem berisi huruf, satu kotak hitam (kotak tertutup). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#F4B23A" android:pathData="M31,31h16v16h-16z" />
+    <path android:fillColor="#FFFCF5" android:pathData="M51,31h16v16h-16z" />
+    <path android:fillColor="#1E2A38" android:pathData="M71,31h16v16h-16z" />
+    <path android:fillColor="#FFFCF5" android:pathData="M31,51h16v16h-16z" />
+    <path android:fillColor="#1F8A7A" android:pathData="M51,51h16v16h-16z" />
+    <path android:fillColor="#FFFCF5" android:pathData="M71,51h16v16h-16z" />
+    <path android:fillColor="#1E2A38" android:pathData="M31,71h16v16h-16z" />
+    <path android:fillColor="#FFFCF5" android:pathData="M51,71h16v16h-16z" />
+    <path android:fillColor="#F4B23A" android:pathData="M71,71h16v16h-16z" />
+</vector>
