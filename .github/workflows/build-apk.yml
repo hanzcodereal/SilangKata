@@ -1,0 +1,87 @@
+name: Build APK Rilis
+
+# Hanya jalan manual: buka tab Actions > "Build APK Rilis" > Run workflow.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Ambil kode
+        uses: actions/checkout@v4
+
+      - name: Siapkan Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Siapkan Gradle 8.7
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.7'
+
+      - name: Periksa data level
+        run: python3 tools/validate_levels.py app/src/main/assets/levels.json
+
+      - name: Siapkan kunci tanda tangan rilis
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          KEYSTORE_FILE="$RUNNER_TEMP/release.jks"
+          if [ -n "$KEYSTORE_BASE64" ]; then
+            echo "$KEYSTORE_BASE64" | base64 -d > "$KEYSTORE_FILE"
+            STORE_PASS="$KEYSTORE_PASSWORD"
+            ALIAS="$KEY_ALIAS"
+            KEY_PASS="$KEY_PASSWORD"
+          else
+            echo "Secret KEYSTORE_BASE64 belum diisi. Memakai kunci sementara untuk build ini."
+            STORE_PASS="$(openssl rand -hex 16)"
+            ALIAS="silangkata"
+            KEY_PASS="$STORE_PASS"
+            keytool -genkeypair -keystore "$KEYSTORE_FILE" -storetype PKCS12 \
+              -storepass "$STORE_PASS" -keypass "$KEY_PASS" -alias "$ALIAS" \
+              -keyalg RSA -keysize 2048 -validity 10000 \
+              -dname "CN=Hanz Dev Official, O=Hanz Dev Official, C=ID"
+          fi
+          {
+            echo "SK_KEYSTORE=$KEYSTORE_FILE"
+            echo "SK_STORE_PASS=$STORE_PASS"
+            echo "SK_KEY_ALIAS=$ALIAS"
+            echo "SK_KEY_PASS=$KEY_PASS"
+          } >> "$GITHUB_ENV"
+        shell: bash
+
+      - name: Build APK release
+        run: gradle :app:assembleRelease --no-daemon --stacktrace
+
+      - name: Beri nama APK
+        run: cp app/build/outputs/apk/release/app-release.apk SilangKata-1.0.0.apk
+
+      - name: Unggah artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SilangKata-1.0.0
+          path: SilangKata-1.0.0.apk
+
+      - name: Buat GitHub Release v1.0.0
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v1.0.0
+          name: Silang Kata 1.0.0
+          files: SilangKata-1.0.0.apk
+          body: |
+            Silang Kata 1.0.0 - teka-teki silang Bahasa Indonesia.
+            Developer: Hanz Dev Official
+            Kontak: hanzzcodee@gmail.com
+            Dukung: https://saweria.co/hanzreally
