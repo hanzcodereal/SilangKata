@@ -1,0 +1,1262 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "pack": "indonesia",
+      "difficulty": "Mudah",
+      "title": "Ruang Tamu",
+      "rows": 10,
+      "cols": 8,
+      "words": [
+        {
+          "answer": "MEJA",
+          "clue": "Tempat meletakkan barang di ruangan",
+          "row": 0,
+          "col": 2,
+          "across": false
+        },
+        {
+          "answer": "ATAP",
+          "clue": "Penutup bagian atas rumah",
+          "row": 3,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "PINTU",
+          "clue": "Jalan masuk dan keluar ruangan",
+          "row": 3,
+          "col": 3,
+          "across": false
+        },
+        {
+          "answer": "LANTAI",
+          "clue": "Dasar tempat kita berpijak di rumah",
+          "row": 4,
+          "col": 7,
+          "across": false
+        },
+        {
+          "answer": "JENDELA",
+          "clue": "Bukaan di dinding untuk cahaya dan udara",
+          "row": 5,
+          "col": 1,
+          "across": true
+        },
+        {
+          "answer": "BUKU",
+          "clue": "Kumpulan lembar kertas yang dijilid",
+          "row": 7,
+          "col": 2,
+          "across": true
+        },
+        {
+          "answer": "KURSI",
+          "clue": "Tempat duduk dengan sandaran",
+          "row": 9,
+          "col": 3,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pack": "indonesia",
+      "difficulty": "Mudah",
+      "title": "Pasar Pagi",
+      "rows": 11,
+      "cols": 9,
+      "words": [
+        {
+          "answer": "TIMBANGAN",
+          "clue": "Alat untuk menimbang barang",
+          "row": 0,
+          "col": 4,
+          "across": false
+        },
+        {
+          "answer": "IKAN",
+          "clue": "Hewan air yang sering digoreng",
+          "row": 1,
+          "col": 4,
+          "across": true
+        },
+        {
+          "answer": "BAYAR",
+          "clue": "Memberi uang untuk membeli",
+          "row": 4,
+          "col": 3,
+          "across": true
+        },
+        {
+          "answer": "BELI",
+          "clue": "Mendapat barang dengan membayar",
+          "row": 6,
+          "col": 1,
+          "across": false
+        },
+        {
+          "answer": "SAYUR",
+          "clue": "Bahan masakan hijau dari kebun",
+          "row": 6,
+          "col": 7,
+          "across": false
+        },
+        {
+          "answer": "KEMBALIAN",
+          "clue": "Uang sisa setelah membayar",
+          "row": 7,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "PASAR",
+          "clue": "Tempat jual beli barang",
+          "row": 10,
+          "col": 3,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pack": "indonesia",
+      "difficulty": "Mudah",
+      "title": "Jalan Raya",
+      "rows": 9,
+      "cols": 12,
+      "words": [
+        {
+          "answer": "SUPIR",
+          "clue": "Orang yang mengemudikan kendaraan",
+          "row": 0,
+          "col": 10,
+          "across": false
+        },
+        {
+          "answer": "BUS",
+          "clue": "Kendaraan besar untuk banyak penumpang",
+          "row": 1,
+          "col": 9,
+          "across": true
+        },
+        {
+          "answer": "MOBIL",
+          "clue": "Kendaraan roda empat untuk keluarga",
+          "row": 3,
+          "col": 7,
+          "across": true
+        },
+        {
+          "answer": "MOTOR",
+          "clue": "Kendaraan roda dua bermesin",
+          "row": 3,
+          "col": 7,
+          "across": false
+        },
+        {
+          "answer": "HALTE",
+          "clue": "Tempat menunggu bus",
+          "row": 4,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "LAMPU",
+          "clue": "Penerang lalu lintas di persimpangan",
+          "row": 4,
+          "col": 2,
+          "across": false
+        },
+        {
+          "answer": "PARKIR",
+          "clue": "Menghentikan kendaraan untuk sementara",
+          "row": 7,
+          "col": 2,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pack": "indonesia",
+      "difficulty": "Sedang",
+      "title": "Dapur Ibu",
+      "rows": 13,
+      "cols": 10,
+      "words": [
+        {
+          "answer": "SAPU",
+          "clue": "Alat untuk membersihkan lantai",
+          "row": 0,
+          "col": 4,
+          "across": true
+        },
+        {
+          "answer": "PANCI",
+          "clue": "Wadah memasak berbentuk bulat",
+          "row": 0,
+          "col": 6,
+          "across": false
+        },
+        {
+          "answer": "GELAS",
+          "clue": "Wadah untuk minum",
+          "row": 1,
+          "col": 8,
+          "across": false
+        },
+        {
+          "answer": "KIPAS",
+          "clue": "Alat peniup angin saat gerah",
+          "row": 4,
+          "col": 5,
+          "across": true
+        },
+        {
+          "answer": "KULKAS",
+          "clue": "Lemari dingin untuk menyimpan makanan",
+          "row": 4,
+          "col": 5,
+          "across": false
+        },
+        {
+          "answer": "PIRING",
+          "clue": "Tempat menaruh lauk saat makan",
+          "row": 5,
+          "col": 3,
+          "across": false
+        },
+        {
+          "answer": "SETRIKA",
+          "clue": "Alat pelicin pakaian yang panas",
+          "row": 7,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "SENDOK",
+          "clue": "Alat makan berbentuk cekung",
+          "row": 7,
+          "col": 0,
+          "across": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pack": "indonesia",
+      "difficulty": "Sedang",
+      "title": "Langit Nusantara",
+      "rows": 12,
+      "cols": 13,
+      "words": [
+        {
+          "answer": "BADAI",
+          "clue": "Cuaca buruk dengan angin kencang",
+          "row": 0,
+          "col": 8,
+          "across": true
+        },
+        {
+          "answer": "ANGIN",
+          "clue": "Udara yang bergerak",
+          "row": 0,
+          "col": 11,
+          "across": false
+        },
+        {
+          "answer": "MENDUNG",
+          "clue": "Langit tertutup awan gelap",
+          "row": 2,
+          "col": 9,
+          "across": false
+        },
+        {
+          "answer": "PELANGI",
+          "clue": "Lengkung warna setelah hujan dan cahaya",
+          "row": 3,
+          "col": 6,
+          "across": false
+        },
+        {
+          "answer": "PETIR",
+          "clue": "Kilatan cahaya saat badai",
+          "row": 3,
+          "col": 8,
+          "across": true
+        },
+        {
+          "answer": "KEMARAU",
+          "clue": "Musim tanpa hujan",
+          "row": 6,
+          "col": 3,
+          "across": true
+        },
+        {
+          "answer": "EMBUN",
+          "clue": "Titik air pagi di dedaunan",
+          "row": 6,
+          "col": 4,
+          "across": false
+        },
+        {
+          "answer": "KABUT",
+          "clue": "Uap tipis yang menutup pandangan",
+          "row": 7,
+          "col": 1,
+          "across": false
+        },
+        {
+          "answer": "HUJAN",
+          "clue": "Air yang turun dari langit",
+          "row": 10,
+          "col": 0,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "pack": "indonesia",
+      "difficulty": "Sedang",
+      "title": "Profesi",
+      "rows": 13,
+      "cols": 12,
+      "words": [
+        {
+          "answer": "DOSEN",
+          "clue": "Pengajar di perguruan tinggi",
+          "row": 0,
+          "col": 4,
+          "across": true
+        },
+        {
+          "answer": "NELAYAN",
+          "clue": "Mencari ikan di laut atau sungai",
+          "row": 0,
+          "col": 8,
+          "across": false
+        },
+        {
+          "answer": "PENULIS",
+          "clue": "Menyusun buku atau artikel",
+          "row": 2,
+          "col": 6,
+          "across": false
+        },
+        {
+          "answer": "PERAWAT",
+          "clue": "Membantu dokter merawat pasien",
+          "row": 3,
+          "col": 5,
+          "across": true
+        },
+        {
+          "answer": "DOKTER",
+          "clue": "Tenaga medis yang mengobati pasien",
+          "row": 4,
+          "col": 3,
+          "across": false
+        },
+        {
+          "answer": "PILOT",
+          "clue": "Menerbangkan pesawat",
+          "row": 5,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "PETANI",
+          "clue": "Bekerja mengolah sawah atau ladang",
+          "row": 7,
+          "col": 1,
+          "across": true
+        },
+        {
+          "answer": "POLISI",
+          "clue": "Menjaga keamanan masyarakat",
+          "row": 7,
+          "col": 1,
+          "across": false
+        },
+        {
+          "answer": "SOPIR",
+          "clue": "Mengemudikan angkutan",
+          "row": 11,
+          "col": 1,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "pack": "indonesia",
+      "difficulty": "Sulit",
+      "title": "Tubuh Kita",
+      "rows": 11,
+      "cols": 13,
+      "words": [
+        {
+          "answer": "LAMBUNG",
+          "clue": "Kantong pencernaan di perut",
+          "row": 0,
+          "col": 6,
+          "across": false
+        },
+        {
+          "answer": "PARU",
+          "clue": "Organ tempat pertukaran oksigen",
+          "row": 1,
+          "col": 5,
+          "across": true
+        },
+        {
+          "answer": "HATI",
+          "clue": "Organ terbesar kedua di dalam tubuh",
+          "row": 1,
+          "col": 12,
+          "across": false
+        },
+        {
+          "answer": "OTOT",
+          "clue": "Jaringan yang membuat tubuh bergerak",
+          "row": 3,
+          "col": 9,
+          "across": true
+        },
+        {
+          "answer": "OTAK",
+          "clue": "Pusat kendali seluruh tubuh",
+          "row": 3,
+          "col": 9,
+          "across": false
+        },
+        {
+          "answer": "GINJAL",
+          "clue": "Organ penyaring darah dan urine",
+          "row": 4,
+          "col": 2,
+          "across": false
+        },
+        {
+          "answer": "KULIT",
+          "clue": "Lapisan terluar pelindung tubuh",
+          "row": 4,
+          "col": 5,
+          "across": true
+        },
+        {
+          "answer": "TULANG",
+          "clue": "Rangka keras pembentuk tubuh",
+          "row": 5,
+          "col": 4,
+          "across": false
+        },
+        {
+          "answer": "JANTUNG",
+          "clue": "Organ pemompa darah",
+          "row": 6,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "DARAH",
+          "clue": "Cairan merah yang mengalir di nadi",
+          "row": 8,
+          "col": 1,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "pack": "indonesia",
+      "difficulty": "Sulit",
+      "title": "Kerajaan Nusantara",
+      "rows": 13,
+      "cols": 14,
+      "words": [
+        {
+          "answer": "PAJAJARAN",
+          "clue": "Kerajaan Sunda di Jawa Barat",
+          "row": 0,
+          "col": 7,
+          "across": false
+        },
+        {
+          "answer": "SRIWIJAYA",
+          "clue": "Kerajaan maritim berpusat di Palembang",
+          "row": 1,
+          "col": 1,
+          "across": true
+        },
+        {
+          "answer": "MATARAM",
+          "clue": "Kerajaan agraris pembangun Borobudur",
+          "row": 2,
+          "col": 11,
+          "across": false
+        },
+        {
+          "answer": "DEMAK",
+          "clue": "Kerajaan Islam pertama di Pulau Jawa",
+          "row": 3,
+          "col": 4,
+          "across": true
+        },
+        {
+          "answer": "MAJAPAHIT",
+          "clue": "Kerajaan Hindu-Buddha terbesar di Jawa Timur",
+          "row": 4,
+          "col": 13,
+          "across": false
+        },
+        {
+          "answer": "TERNATE",
+          "clue": "Kesultanan di Maluku Utara",
+          "row": 5,
+          "col": 4,
+          "across": false
+        },
+        {
+          "answer": "TARUMANEGARA",
+          "clue": "Kerajaan tertua di Jawa Barat",
+          "row": 7,
+          "col": 2,
+          "across": true
+        },
+        {
+          "answer": "KUTAI",
+          "clue": "Kerajaan tertua di Indonesia dari Kalimantan",
+          "row": 8,
+          "col": 1,
+          "across": false
+        },
+        {
+          "answer": "BANTEN",
+          "clue": "Kesultanan di ujung barat Jawa",
+          "row": 11,
+          "col": 0,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "pack": "indonesia",
+      "difficulty": "Ahli",
+      "title": "Ilmu Alam",
+      "rows": 15,
+      "cols": 13,
+      "words": [
+        {
+          "answer": "MAGNET",
+          "clue": "Benda yang menarik besi",
+          "row": 0,
+          "col": 2,
+          "across": false
+        },
+        {
+          "answer": "ENERGI",
+          "clue": "Kemampuan untuk melakukan kerja",
+          "row": 3,
+          "col": 1,
+          "across": true
+        },
+        {
+          "answer": "GRAVITASI",
+          "clue": "Gaya tarik antara benda bermassa",
+          "row": 3,
+          "col": 5,
+          "across": false
+        },
+        {
+          "answer": "EVOLUSI",
+          "clue": "Perubahan makhluk hidup dalam waktu lama",
+          "row": 5,
+          "col": 10,
+          "across": false
+        },
+        {
+          "answer": "OKSIGEN",
+          "clue": "Gas yang dibutuhkan untuk bernapas",
+          "row": 7,
+          "col": 2,
+          "across": true
+        },
+        {
+          "answer": "KLOROFIL",
+          "clue": "Pigmen hijau pada daun",
+          "row": 7,
+          "col": 3,
+          "across": false
+        },
+        {
+          "answer": "ELEKTRON",
+          "clue": "Partikel bermuatan negatif",
+          "row": 7,
+          "col": 7,
+          "across": false
+        },
+        {
+          "answer": "ATOM",
+          "clue": "Satuan terkecil unsur kimia",
+          "row": 9,
+          "col": 1,
+          "across": false
+        },
+        {
+          "answer": "FOTOSINTESIS",
+          "clue": "Proses tumbuhan membuat makanan dari cahaya",
+          "row": 11,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "MOLEKUL",
+          "clue": "Gabungan beberapa atom",
+          "row": 13,
+          "col": 6,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "pack": "indonesia",
+      "difficulty": "Ahli",
+      "title": "Budaya & Alam",
+      "rows": 14,
+      "cols": 15,
+      "words": [
+        {
+          "answer": "KOMODO",
+          "clue": "Kadal raksasa dari Nusa Tenggara Timur",
+          "row": 0,
+          "col": 1,
+          "across": false
+        },
+        {
+          "answer": "TOBA",
+          "clue": "Danau vulkanik terbesar di Indonesia",
+          "row": 2,
+          "col": 3,
+          "across": false
+        },
+        {
+          "answer": "BOROBUDUR",
+          "clue": "Candi Buddha terbesar di dunia",
+          "row": 3,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "RAJAAMPAT",
+          "clue": "Gugusan pulau dengan terumbu karang terkaya",
+          "row": 3,
+          "col": 8,
+          "across": false
+        },
+        {
+          "answer": "WAYANG",
+          "clue": "Pertunjukan boneka kulit khas Jawa",
+          "row": 3,
+          "col": 14,
+          "across": false
+        },
+        {
+          "answer": "ANGKLUNG",
+          "clue": "Alat musik bambu dari Jawa Barat",
+          "row": 6,
+          "col": 12,
+          "across": false
+        },
+        {
+          "answer": "PRAMBANAN",
+          "clue": "Candi Hindu berbentuk menjulang di Yogyakarta",
+          "row": 7,
+          "col": 6,
+          "across": true
+        },
+        {
+          "answer": "BATIK",
+          "clue": "Kain bermotif hasil lilin dan canting",
+          "row": 7,
+          "col": 10,
+          "across": false
+        },
+        {
+          "answer": "KERIS",
+          "clue": "Senjata tradisional berbilah berkelok",
+          "row": 9,
+          "col": 6,
+          "across": false
+        },
+        {
+          "answer": "MERAPI",
+          "clue": "Gunung api paling aktif di Jawa Tengah",
+          "row": 10,
+          "col": 5,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "pack": "internasional",
+      "difficulty": "Mudah",
+      "title": "Animals",
+      "rows": 8,
+      "cols": 11,
+      "words": [
+        {
+          "answer": "ZEBRA",
+          "clue": "Striped horse-like animal",
+          "row": 0,
+          "col": 1,
+          "across": false
+        },
+        {
+          "answer": "SNAKE",
+          "clue": "Animal that slithers",
+          "row": 0,
+          "col": 4,
+          "across": false
+        },
+        {
+          "answer": "RABBIT",
+          "clue": "Animal with long ears",
+          "row": 2,
+          "col": 3,
+          "across": true
+        },
+        {
+          "answer": "TURTLE",
+          "clue": "Animal with a shell",
+          "row": 2,
+          "col": 8,
+          "across": false
+        },
+        {
+          "answer": "EAGLE",
+          "clue": "Bird of prey",
+          "row": 4,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "HORSE",
+          "clue": "Animal you can ride",
+          "row": 4,
+          "col": 6,
+          "across": true
+        },
+        {
+          "answer": "TIGER",
+          "clue": "Striped big cat",
+          "row": 7,
+          "col": 5,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "pack": "internasional",
+      "difficulty": "Mudah",
+      "title": "Fruits",
+      "rows": 7,
+      "cols": 12,
+      "words": [
+        {
+          "answer": "BERRY",
+          "clue": "Small juicy fruit like a strawberry",
+          "row": 0,
+          "col": 4,
+          "across": false
+        },
+        {
+          "answer": "APPLE",
+          "clue": "Fruit that keeps the doctor away",
+          "row": 1,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "PEACH",
+          "clue": "Fuzzy stone fruit",
+          "row": 1,
+          "col": 1,
+          "across": false
+        },
+        {
+          "answer": "LEMON",
+          "clue": "Sour yellow citrus",
+          "row": 2,
+          "col": 7,
+          "across": false
+        },
+        {
+          "answer": "GRAPE",
+          "clue": "Small fruit that makes wine",
+          "row": 3,
+          "col": 3,
+          "across": true
+        },
+        {
+          "answer": "MELON",
+          "clue": "Big fruit with a green rind",
+          "row": 4,
+          "col": 7,
+          "across": true
+        },
+        {
+          "answer": "MANGO",
+          "clue": "Tropical fruit of the sunny days",
+          "row": 6,
+          "col": 5,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "pack": "internasional",
+      "difficulty": "Sedang",
+      "title": "Space",
+      "rows": 9,
+      "cols": 12,
+      "words": [
+        {
+          "answer": "ORBIT",
+          "clue": "Path around a star or planet",
+          "row": 0,
+          "col": 4,
+          "across": true
+        },
+        {
+          "answer": "ROCKET",
+          "clue": "Vehicle that launches into orbit",
+          "row": 0,
+          "col": 5,
+          "across": false
+        },
+        {
+          "answer": "COMET",
+          "clue": "Icy body with a glowing tail",
+          "row": 1,
+          "col": 9,
+          "across": false
+        },
+        {
+          "answer": "MOON",
+          "clue": "Earth's natural satellite",
+          "row": 2,
+          "col": 3,
+          "across": false
+        },
+        {
+          "answer": "COSMOS",
+          "clue": "The universe as a whole",
+          "row": 2,
+          "col": 5,
+          "across": true
+        },
+        {
+          "answer": "GALAXY",
+          "clue": "Huge group of stars",
+          "row": 3,
+          "col": 1,
+          "across": false
+        },
+        {
+          "answer": "PLANET",
+          "clue": "Earth is one",
+          "row": 5,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "STAR",
+          "clue": "Sun is one of these",
+          "row": 5,
+          "col": 8,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "pack": "internasional",
+      "difficulty": "Sedang",
+      "title": "Kitchen",
+      "rows": 12,
+      "cols": 8,
+      "words": [
+        {
+          "answer": "KNIFE",
+          "clue": "Sharp tool for cutting",
+          "row": 0,
+          "col": 2,
+          "across": true
+        },
+        {
+          "answer": "FRIDGE",
+          "clue": "Cold cabinet for food",
+          "row": 0,
+          "col": 5,
+          "across": false
+        },
+        {
+          "answer": "PLATE",
+          "clue": "Flat dish for serving food",
+          "row": 2,
+          "col": 0,
+          "across": false
+        },
+        {
+          "answer": "SINK",
+          "clue": "Basin with a faucet",
+          "row": 2,
+          "col": 4,
+          "across": true
+        },
+        {
+          "answer": "TOASTER",
+          "clue": "Machine that browns bread",
+          "row": 5,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "SPOON",
+          "clue": "Utensil with a round bowl",
+          "row": 5,
+          "col": 3,
+          "across": false
+        },
+        {
+          "answer": "BOWL",
+          "clue": "Deep dish for soup",
+          "row": 8,
+          "col": 0,
+          "across": false
+        },
+        {
+          "answer": "OVEN",
+          "clue": "Appliance for baking",
+          "row": 9,
+          "col": 0,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "pack": "internasional",
+      "difficulty": "Sulit",
+      "title": "Oceans",
+      "rows": 14,
+      "cols": 12,
+      "words": [
+        {
+          "answer": "CURRENT",
+          "clue": "Steady flow of water in the sea",
+          "row": 0,
+          "col": 6,
+          "across": false
+        },
+        {
+          "answer": "PACIFIC",
+          "clue": "Largest ocean on Earth",
+          "row": 2,
+          "col": 8,
+          "across": false
+        },
+        {
+          "answer": "WAVE",
+          "clue": "Ridge of water on the sea",
+          "row": 4,
+          "col": 2,
+          "across": false
+        },
+        {
+          "answer": "ATLANTIC",
+          "clue": "Ocean between America and Europe",
+          "row": 5,
+          "col": 2,
+          "across": true
+        },
+        {
+          "answer": "REEF",
+          "clue": "Rocky ridge near the surface",
+          "row": 7,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "ARCTIC",
+          "clue": "Northernmost ocean",
+          "row": 8,
+          "col": 6,
+          "across": true
+        },
+        {
+          "answer": "INDIAN",
+          "clue": "Ocean south of Asia",
+          "row": 8,
+          "col": 10,
+          "across": false
+        },
+        {
+          "answer": "TIDE",
+          "clue": "Regular rise and fall of the sea",
+          "row": 10,
+          "col": 8,
+          "across": true
+        },
+        {
+          "answer": "CORAL",
+          "clue": "Colorful reef builder",
+          "row": 12,
+          "col": 7,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "pack": "internasional",
+      "difficulty": "Sulit",
+      "title": "Science",
+      "rows": 13,
+      "cols": 12,
+      "words": [
+        {
+          "answer": "ENZYME",
+          "clue": "Protein that speeds up reactions",
+          "row": 0,
+          "col": 2,
+          "across": true
+        },
+        {
+          "answer": "NEUTRON",
+          "clue": "Particle with no charge in the nucleus",
+          "row": 0,
+          "col": 3,
+          "across": false
+        },
+        {
+          "answer": "GENE",
+          "clue": "Unit of heredity",
+          "row": 2,
+          "col": 9,
+          "across": false
+        },
+        {
+          "answer": "VACCINE",
+          "clue": "Preparation that builds immunity",
+          "row": 3,
+          "col": 6,
+          "across": false
+        },
+        {
+          "answer": "CELL",
+          "clue": "Basic unit of life",
+          "row": 3,
+          "col": 8,
+          "across": true
+        },
+        {
+          "answer": "MOLECULE",
+          "clue": "Group of bonded atoms",
+          "row": 5,
+          "col": 2,
+          "across": true
+        },
+        {
+          "answer": "PHOTON",
+          "clue": "Particle of light",
+          "row": 7,
+          "col": 4,
+          "across": false
+        },
+        {
+          "answer": "MICROBE",
+          "clue": "Tiny living organism",
+          "row": 9,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "PROTON",
+          "clue": "Positively charged particle",
+          "row": 11,
+          "col": 0,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "pack": "internasional",
+      "difficulty": "Ahli",
+      "title": "World Cities",
+      "rows": 12,
+      "cols": 13,
+      "words": [
+        {
+          "answer": "MADRID",
+          "clue": "Spanish capital",
+          "row": 0,
+          "col": 9,
+          "across": false
+        },
+        {
+          "answer": "TOKYO",
+          "clue": "Capital of Japan",
+          "row": 0,
+          "col": 12,
+          "across": false
+        },
+        {
+          "answer": "CAIRO",
+          "clue": "Capital on the Nile",
+          "row": 1,
+          "col": 8,
+          "across": true
+        },
+        {
+          "answer": "BERLIN",
+          "clue": "German capital with a famous wall history",
+          "row": 2,
+          "col": 6,
+          "across": false
+        },
+        {
+          "answer": "PARIS",
+          "clue": "City of the Eiffel Tower",
+          "row": 3,
+          "col": 3,
+          "across": false
+        },
+        {
+          "answer": "LIMA",
+          "clue": "Capital of Peru",
+          "row": 4,
+          "col": 0,
+          "across": true
+        },
+        {
+          "answer": "LONDON",
+          "clue": "Capital on the Thames",
+          "row": 5,
+          "col": 6,
+          "across": true
+        },
+        {
+          "answer": "SYDNEY",
+          "clue": "Largest city in Australia",
+          "row": 7,
+          "col": 3,
+          "across": true
+        },
+        {
+          "answer": "DUBAI",
+          "clue": "City with a famous tall tower",
+          "row": 7,
+          "col": 5,
+          "across": false
+        },
+        {
+          "answer": "LAGOS",
+          "clue": "Largest city in Nigeria",
+          "row": 10,
+          "col": 4,
+          "across": true
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "pack": "internasional",
+      "difficulty": "Ahli",
+      "title": "Technology",
+      "rows": 13,
+      "cols": 15,
+      "words": [
+        {
+          "answer": "ROUTER",
+          "clue": "Device that directs network traffic",
+          "row": 0,
+          "col": 2,
+          "across": true
+        },
+        {
+          "answer": "THREAD",
+          "clue": "Smallest unit of execution in a program",
+          "row": 0,
+          "col": 5,
+          "across": false
+        },
+        {
+          "answer": "CACHE",
+          "clue": "Fast temporary storage",
+          "row": 0,
+          "col": 10,
+          "across": true
+        },
+        {
+          "answer": "COMPILER",
+          "clue": "Translates source code into machine code",
+          "row": 0,
+          "col": 10,
+          "across": false
+        },
+        {
+          "answer": "BROWSER",
+          "clue": "Program for surfing the web",
+          "row": 2,
+          "col": 8,
+          "across": false
+        },
+        {
+          "answer": "ALGORITHM",
+          "clue": "Step-by-step procedure for a task",
+          "row": 4,
+          "col": 5,
+          "across": true
+        },
+        {
+          "answer": "KERNEL",
+          "clue": "Core of an operating system",
+          "row": 7,
+          "col": 4,
+          "across": false
+        },
+        {
+          "answer": "SERVER",
+          "clue": "Machine that serves requests",
+          "row": 8,
+          "col": 3,
+          "across": true
+        },
+        {
+          "answer": "BINARY",
+          "clue": "Number system with only two digits",
+          "row": 10,
+          "col": 2,
+          "across": true
+        },
+        {
+          "answer": "PIXEL",
+          "clue": "Smallest dot on a screen",
+          "row": 12,
+          "col": 0,
+          "across": true
+        }
+      ]
+    }
+  ]
+}
